@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
+    color: #444343;
+    line-height: 26px;
+}
+
+/* Header Section style  */
+.header {
+    width: 100vw;
+    height: 50.5vw;
+    background-image: url('images/banner/banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 13%;
+    gap: 1.2rem;
+}
+
+.banner-title {
+    width: 525px;
+    font-size: 65px;
+    font-weight: 700;
+    color: #151415;
+}
+
+.banner-description {
+    width: 494px;
+}
+
+.btn-primary {
+    background-color: #F15B22;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* My failures and achievements style */
+.previous {
+    padding: 3% 15%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-top: 4rem;
+}
+
+.previous img {
+    width: 100%;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.section-description {
+    margin-bottom: 1rem;
+}
+
+ul li {
+    list-style: none;
+    color: #444343;
+}
+
+.arrow,
+.tick {
+    color: #4dbd80;
+    margin-right: 0.5rem;
+    font-weight: bold;
+}
+
+/* Only for achievements section */
+.achieve {
+    background-color: #f7f7f7;
+}
+
+
+/* Plan Section style */
+.plan {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+.plan-container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    padding: 1rem;
+}
+
+.plan-box img {
+    width: 4rem;
+}
+
+.plan-name {
+    font-size: 30px;
+    margin-bottom: 1rem;
+}
+
+.plan-description {
+    font-size: 25px;
+}
+
+/* Call now style */
+.call-now {
+    margin: 8rem auto;
+    width: 70%;
+    padding: 4rem;
+    /* background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('images/watch.png'); */
+    background-image: url('images/gradient.png'), url('images/watch.png');
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.title {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.btn-secondary {
+    background-color: #fff;
+    border-radius: 5px;
+    border: none;
+    color: #F15B22;
+    padding: 18px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Footer Style */
+.footer {
+    background-color: #151415;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+    gap: 10rem;
+}
+
+.contact-info,
+.subscribe {
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.subscribe input {
+    display: block;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    padding: 1.2rem 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.subscribe input:focus {
+    outline: none;
+}
+
+.contact-info h1 {
+    font-size: 45px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.contact-info p {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.social-link {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link a {
+    text-decoration: none;
+}
+
+.subscribe h4 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
